@@ -3,12 +3,16 @@
 - Based on Typescript (TS)
 - Include SwaggerUI
 
-### DevStarter
+## Installation
 ```
-  npm run dev
+  npm run setup
 ```
 
-### All NPM-Options
+## Starter
+```
+  npm run setup
+```
+## All NPM-Options
 ```
   - "setup": "npm install --save",
   - "clean": "rm -rf dist node_modules && npm install",
