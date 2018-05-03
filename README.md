@@ -10,7 +10,7 @@
 
 ## Starter
 ```
-  npm run setup
+  npm run dev
 ```
 ## All NPM-Options
 ```
