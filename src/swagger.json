@@ -1,0 +1,70 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "Marvin",
+    "description": "Project-Landingpage for Applications",
+    "license": {
+    }
+  },
+  "host": "localhost:3000",
+  "basePath": "/api",
+  "tags": [
+    {
+    }
+  ],
+  "schemes": [
+    "http"
+  ],
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "paths": {
+    "/products": {
+      "get": {
+        "tags": [
+          "Products"
+        ],
+        "summary": "Any Products",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/products"
+            }
+          }
+        }
+      }
+    },
+    "/applications/{productname}": {
+      "parameters": [
+        {
+          "name": "productname",
+          "in": "path",
+          "required": true,
+          "description": "Name of product",
+          "type": "string"
+        }
+      ],
+      "get": {
+        "tags": [
+          "Applications"
+        ],
+        "summary": "Applications assigned to a product",
+        "responses": {
+          "200": {
+            "description": "services found",
+            "schema": {
+              "$ref": "#/definitions/applications"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+  }
+}

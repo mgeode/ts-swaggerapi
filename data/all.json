@@ -1,0 +1,49 @@
+{
+  "data": [{
+      "id": "0293876293",
+      "name": "Petshop2",
+      "apps": [{
+          "name": "petshop_ui",
+          "repo": "https://svn.de/petshop/ui"
+        },
+        {
+          "name": "petshop_dbi",
+          "repo": "https://svn.de/petshop/dbi"
+        },
+        {
+          "name": "petshop_api",
+          "repo": "https://svn.de/petshop/api"
+        }
+      ],
+      "members": [{
+        "id": "xub5111",
+        "lastname": "duck",
+        "firstname": "trick"
+      }, {
+        "id": "xca0815",
+        "lastname": "mouse",
+        "firstname": "mickey"
+      }],
+      "environments": []
+    },
+    {
+      "id": "112838A33",
+      "name": "Bookstore",
+      "apps": [{
+          "name": "bookstore_ui",
+          "repo": "https://svn.de/books/ui"
+        },
+        {
+          "name": "bookstore_dbi",
+          "repo": "https://svn.de/books/dbi"
+        }
+      ],
+      "members": [{
+        "id": "xhu1234",
+        "lastname": "duck-mouse",
+        "firstname": "mini"
+      }],
+      "environments": []
+    }
+  ]
+}
